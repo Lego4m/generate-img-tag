@@ -1,0 +1,27 @@
+{
+  "name": "generate-img-tag",
+  "version": "1.0.0",
+  "description": "Ferramenta para procurar imagens",
+  "main": "bin/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leogamermmmm/generate-img-tag.git"
+  },
+  "keywords": [
+    "HTML",
+    "IMG",
+    "SRC"
+  ],
+  "author": "Leonardo Maron",
+  "license": "MIT",
+  "bin": {
+    "generateimgtag": "./bin/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Leogamermmmm/generate-img-tag/issues"
+  },
+  "homepage": "https://github.com/Leogamermmmm/generate-img-tag#readme",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}
