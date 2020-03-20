@@ -18,7 +18,3 @@ Esse projeto gera tags html com fotos locais.
 <p align="center">
     <img src="https://raw.githubusercontent.com/Leogamermmmm/generate-img-tag/master/project-preview.gif" width="550">
 </p>
-
-## Autor
-| [<img src="https://avatars0.githubusercontent.com/u/39628486?s=460&v=4" width=115><br><sub>Leonardo</sub>](https://github.com/Leogamermmmm) |
-| :---: |
