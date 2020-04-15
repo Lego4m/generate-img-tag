@@ -13,8 +13,8 @@ Esse projeto gera tags html com fotos locais.
 
 ## Como usar
 
-* Apenas execute ```generateimgtag``` em qualquer lugar, ele listará todas as fotos (.jpg, .png) em forma de tags <img src="">
+* Apenas execute ```generateimgtag``` em qualquer lugar, ele listará todas as fotos (.jpg, .png) em forma de tags HTML.
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Leogamermmmm/generate-img-tag/master/project-preview.gif" width="550">
+    <img src="project-preview.gif" width="550">
 </p>

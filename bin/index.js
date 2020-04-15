@@ -2,7 +2,8 @@
 
 const fs = require('fs');
 const path = require('path');
-const target = "./";
+const target = './';
+const exts = ['.jpg', '.png'];
 
 function search(dir){
   fs.readdirSync(dir).forEach(item => {
@@ -17,20 +18,11 @@ function search(dir){
 }
 
 function isImage(item){
-  switch (item) {
-    case ".jpg":
-      return true;
-    
-    case ".png":
-      return true;
-    
-    default:
-      return false;
-  }
+  return exts.includes(item);
 }
 
 function Log(message){
-  console.log(`<img src="${message.replace("./", "")}">`);
+  console.log(`<img src="${message.replace('./', '')}">`);
 }
 
 search(target);
